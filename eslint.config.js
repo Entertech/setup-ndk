@@ -18,7 +18,7 @@ module.exports = ts.config(
     },
     languageOptions: {
       parserOptions: {
-        EXPERIMENTAL_useProjectService: true,
+        projectService: true,
       },
     },
     rules: {
